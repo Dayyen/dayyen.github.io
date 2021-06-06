@@ -1,45 +1,44 @@
+
 <!DOCTYPE html>
-<head>
-	<link rel="stylesheet" href="style.css">
-	<title>Air Quality</title>
-	<link rel = "icon" href = "logo.png" type = "image/x-icon">
-	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-</head>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 <body>
-	<div class="banner2">
-		<div class="navbar"> 
 
-      		<a href="index.html"><img src="logo.png" class="logo"></a>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">Air Quality</h1>
+	<div class="airWidget">
+		<iframe title="Example 2" height="340" src="https://widget.airnow.gov/aq-dial-widget/?city=Gurugram&state=Haryana&country=India&transparent=true" style="border: none; border-radius: 25px;" width="230"></iframe>
+	</div>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Gurugram</p>
+  </div>
 
-      		<ul>
-       			<li><a href="index.html">Home</a></li>
-        		<li><a href="education.html">Education</a></li>
-        		<li><a href="#contact">Contact</a></li>
-        		<li><a href="https://form.123formbuilder.com/5919871/form">About Us</a></li>
-      		</ul>
-      	</div>	
+</div>
+
+</body>
+</html>
+
+		  </div>	
 			<div class="airWidget">
 				<iframe title="Example 2" height="340" src="https://widget.airnow.gov/aq-dial-widget/?city=Gurugram&state=Haryana&country=India&transparent=true" style="border: none; border-radius: 25px;" width="230"></iframe>
 			</div>
-	</div>
-	<div class="cta" id="contact">
-		<h1>Help Support the movement and contribute to Cleanliness</h1>  
 
-		
-		<button type="button" class="donateBtn" onclick="donateBtn()"><span></span>Donate</button>
-	  </div>
-
-	</div>
-
-	<div class="contact-banner" id="contactus">
-
-	</div>
-
-  <script>
-	  function donateBtn() {
-  window.location.href = "https://www.impactguru.com/fundraiser/help-swachh-bharat";
-}
-  </script>
-</body>
-</html>
+			
