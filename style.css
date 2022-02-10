@@ -351,9 +351,8 @@ button:hover span{
 
 .airWidget{
 	text-align: center;
-	margin:  auto;
-	margin-top: 80px;
-	position: relative;
+	position: absolute;
+  	right: 200px;
 }
 
 .banner2{
